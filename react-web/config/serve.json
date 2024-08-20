@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "initialPage": "https://nanaimoacl.sharepoint.com/sites/deleteAfter", 
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://nanaimoacl.sharepoint.com/sites/deleteAfter/SitePages/Home.aspx"
+      
+    }}
+}

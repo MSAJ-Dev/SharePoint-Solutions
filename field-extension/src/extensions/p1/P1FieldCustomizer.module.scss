@@ -1,0 +1,14 @@
+.p1 {
+  .cell {
+    display: inline-block;
+    /* Other styles for .cell */
+  }
+  .full {
+    background-color: blue($color: #000000);
+    width: 100px;
+    /* Other styles for .full */
+  }
+}
+
+
+ 

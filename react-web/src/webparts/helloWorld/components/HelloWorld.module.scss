@@ -1,0 +1,68 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+@import '~office-ui-fabric-react/dist/sass/Fabric.scss';
+
+
+
+.helloWorld {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+
+.container{
+    max-width: 700PX;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 25px 50px 0 rgba(0,0,0,0.1);
+
+}
+
+.row {
+  @include ms-Grid-row;
+  @include ms-fontColor-white;
+  background-color: maroon;
+  padding: 20px;
+}
+
+.column {
+  @include ms-Grid-row;
+  @include ms-lg10;
+  @include ms-xl8;
+  @include ms-xlPush2;
+  @include ms-lgPush1;
+}
+
+.title{
+
+@include ms-font-xl;
+@include ms-fontColor-white;
+font-weight: hold;
+margin-left: 100px;
+
+
+}
+
+.subTitle{
+  @include ms-font-l;
+  @include ms-fontColor-white;
+  font-weight: bold;
+  
+
+}
+
+.description {
+  @include ms-font-l;
+  @include ms-fontColor-white;
+
+}
+
+.buttom{
+  @include ms-font-l;
+  @include ms-fontColor-white;
+
+}

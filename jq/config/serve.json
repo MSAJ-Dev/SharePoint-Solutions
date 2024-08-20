@@ -1,0 +1,38 @@
+// {
+//   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+//   "port": 4321,
+//   "https": true,
+//   "initialPage":"https://nanaimoacl.sharepoint.com/sites/deleteAfter/SitePages/Home.aspx"
+// }
+
+
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://nanaimoacl.sharepoint.com/sites/deleteAfter/SitePages/Home.aspx",
+      "customActions": {
+        "40f95572-5567-4041-8689-4dca76c7d899": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "top": "Tope Page" ,
+            "bottom": "Bottom Page"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://{tenantDomain}/SitePages/myPage.aspx",
+      "customActions": {
+        "40f95572-5567-4041-8689-4dca76c7d899": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

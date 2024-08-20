@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://nanaimoacl.sharepoint.com/sites/deleteAfter/Lists/Order/AllItems.aspx",
+      "fieldCustomizers": {
+        "Percent": {
+          "id": "9cb151eb-2c4f-48c2-b0ac-ee04d391665d",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "p1": {
+      "pageUrl": "https://nanaimoacl.sharepoint.com/sites/deleteAfter/Lists/Order/AllItems.aspx",
+      "fieldCustomizers": {
+        "Percent": {
+          "id": "9cb151eb-2c4f-48c2-b0ac-ee04d391665d",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}

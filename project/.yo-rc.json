@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "user-profile",
+    "libraryId": "2350df39-10a3-4f61-9ad6-0f2a921878ea",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "UserProfile ",
+    "solutionShortDescription": "UserProfile  description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
