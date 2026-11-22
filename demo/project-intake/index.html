@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Intake | SharePoint Portfolio Demo</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">SharePoint workflow demo</p>
+      <h1>Project intake</h1>
+      <p>Submit a project request and track its review status.</p>
+    </header>
+    <section aria-labelledby="new-request">
+      <h2 id="new-request">New request</h2>
+      <form id="request-form">
+        <label>Project name <input name="title" required maxlength="80"></label>
+        <label>Request owner <input name="owner" required maxlength="60"></label>
+        <button type="submit">Add request</button>
+      </form>
+    </section>
+    <section aria-labelledby="queue-heading">
+      <div class="queue-heading">
+        <h2 id="queue-heading">Review queue</h2>
+        <label>Status <select id="filter"><option value="">All statuses</option><option>Submitted</option><option>In review</option><option>Approved</option></select></label>
+      </div>
+      <p id="status" role="status"></p>
+      <ul id="requests" aria-label="Project requests"></ul>
+    </section>
+    <footer>Sample data and changes are stored in this browser when local storage is available.</footer>
+  </main>
+</body>
+</html>
